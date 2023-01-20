@@ -1,0 +1,164 @@
+// Side_bar or Nav_bar start 
+.NavLink {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+// Side_bar or Nav_bar end 
+
+// Search box style start
+
+
+
+
+.Success {
+    color: green;
+}
+
+.Pending {
+    color: #fcbe11;
+}
+
+.Cancle {
+    color: red;
+}
+
+.Search_div {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .first {
+
+
+        width: 100%;
+
+        .search_box {
+            border: 0px;
+            border-bottom: 1px solid black;
+            width: 55%;
+            margin: 15px 0px;
+            outline-offset: 0px;
+            outline: none;
+            font-size: 22px;
+            background-color: transparent;
+        }
+
+        .search_button {
+            border: 0px;
+            font-size: 22px;
+            padding: 0px 10px;
+            border-bottom: 1px solid black;
+            background-color: transparent;
+
+
+
+
+
+        }
+    }
+
+    .second {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+
+        .add_button {
+            background-color: black;
+            color: white;
+            padding: 5px 20px;
+            outline: 0px;
+            border: 0px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Search_div {
+
+        flex-direction: column-reverse;
+
+        .first {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .search_box {
+                border: 0px;
+                border-bottom: 1px solid black;
+                width: 70%;
+                margin: 15px 0px;
+                outline-offset: 0px;
+                outline: none;
+                font-size: 22px;
+                background-color: transparent;
+            }
+
+            .search_button {
+                border: 0px;
+                font-size: 22px;
+                padding: 0px 10px;
+                border-bottom: 1px solid black;
+                background-color: transparent;
+
+            }
+        }
+
+        .second {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+
+            .add_button {
+                background-color: black;
+                color: white;
+                padding: 5px 20px;
+                outline: 0px;
+                border: 0px;
+            }
+        }
+    }
+
+}
+
+// Search box style end
+
+
+
+// total_order table start
+.Delivered {
+    color: green
+}
+
+.proceeding {
+    color: blue;
+}
+
+.Active {
+    color: green;
+}
+
+// total_order table end
+
+.rating {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// product_table start
+
+
+// product_table end
