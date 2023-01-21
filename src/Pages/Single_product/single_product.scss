@@ -5,8 +5,17 @@
 }
 
 .Single_product_container {
-    background-color: red;
-    color: white;
+
     min-height: 100vh;
     padding: 18px;
+
+    .product_images {
+        border: 2px solid rgb(243, 133, 155);
+        opacity: 0.8;
+
+        &:hover {
+            border: 2px solid crimson;
+            opacity: 1;
+        }
+    }
 }

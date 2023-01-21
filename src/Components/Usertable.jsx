@@ -47,11 +47,11 @@ export default function Usertable(props) {
 
                 <div className='second' >
                     <div style={{ fontSize: '30px', color: 'red', cursor: 'pointer' }} >
-                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                        <i className="fa fa-trash-o" aria-hidden="true"></i>
 
                     </div>
                     <div>
-                        <button className='add_button'>Add<i class="fa fa-plus-circle mx-1" aria-hidden="true"></i></button>
+                        <button className='add_button'>Add<i className="fa fa-plus-circle mx-1" aria-hidden="true"></i></button>
 
                     </div>
                     <select name="pets" id="pet-select" style={{ width: '100px', background: 'black', color: 'white', padding: '5px', cursor: 'pointer' }}>

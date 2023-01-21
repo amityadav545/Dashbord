@@ -80,7 +80,7 @@ export default function Order_table(props) {
                                     <td> <NavLink to={`${ele.Order_id}`} style={{ textDecoration: 'none' }}>{ele.Product}</NavLink></td>
                                     <td >  {ele.Transction_Id}</td>
                                     <td>{ele.Date}</td>
-                                    <td><i className="fa fa-check-circle mx-1" aria-hidden="true" style={{ color: "green", fontSize: '20px', cursor: 'pointer' }}></i>
+                                    <td style={{ whiteSpace: 'nowrap' }}><i className="fa fa-check-circle mx-1" aria-hidden="true" style={{ color: "green", fontSize: '20px', cursor: 'pointer' }}></i>
 
                                         <i className="fa fa-times-circle mx-1" aria-hidden="true" style={{ color: "red", fontSize: '20px', cursor: 'pointer' }}></i>
                                         <NavLink to={`${ele.Order_id}`} style={{ textDecoration: 'none' }}><i className="fa fa-eye mx-1" aria-hidden="true" style={{ color: "black", fontSize: '20px', cursor: 'pointer' }}></i></NavLink>
